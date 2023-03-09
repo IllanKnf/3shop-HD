@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Static Template</title>
+
+    <script type="text/javascript">
+      var global = global || window;
+      window.__3SHOP_APP_ID__ = '4ba82e10-fec2-472e-849a-0d6c1a7ce407';
+      window.__3SHOP_NETWORK__ = 'POLYGON';
+      (function () {
+        d = document;
+        s = d.createElement('script');
+        s.type = 'module';
+        s.src = 'https://cdn.3shop.co/app/index.js';
+        s.async = 1;
+        d.getElementsByTagName('head')[0].appendChild(s);
+      })();
+    </script>
+    <link rel="stylesheet" href="https://cdn.3shop.co/app/index.css" />
+
+    <style>
+      [id='3shop-app'] {
+        background: #fb055c;
+      }
+      [id='3shop-app'] .shop3-text {
+        color: black;
+      }
+
+      [id='3shop-app'] .shop3-product-card {
+        background: #00ffae;
+        padding: 24px;
+      }
+
+      .shop3-product-card__discount-tag-container {
+        display: none;
+      }
+
+      .shop3-locked-layer__text {
+        margin-left: -24px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="3shop-app"></div>
+  </body>
+</html>
